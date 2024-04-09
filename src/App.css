@@ -17,7 +17,7 @@
 
 @media only screen and (max-width: 1200px) {
   .main_container {
-    height: 100vh;
+    height: 100%;
     /* margin: 10px; */
     /* border: 1px solid red; */
     background-color: rgb(10 12 27);

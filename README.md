@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h1>Previewbox Component</h1>
 
-Currently, two official plugins are available:
+  <p>This repository contains a React component called Previewbox, designed to display business insights and statistics. It utilizes SCSS for styling and includes an image header.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <h2>Usage</h2>
 
-## Expanding the ESLint configuration
+  <p>To use the Previewbox component in your React application, import it and include it in your JSX code:</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  <pre><code>&lt;import Previewbox from './path/to/Previewbox';&gt;
 
-- Configure the top-level `parserOptions` property like this:
+  &lt;function App() { 
+    return (
+      &lt;div className="App"&gt;
+        &lt;Previewbox /&gt;
+      &lt;/div&gt;
+    );
+  }
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+  export default App;&gt;</code></pre>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  <h2>Features</h2>
+
+  <ul>
+    <li>Display business insights and statistics.</li>
+    <li>Utilizes SCSS for styling.</li>
+    <li>Includes an image header for visual appeal.</li>
+  </ul>
+
+  <h2>Customization</h2>
+
+  <p>You can customize the styles and content of the Previewbox component according to your needs. The SCSS file (<code>previewbox.module.scss</code>) contains the styles for the component, and you can modify the JSX code to change the content.</p>
+
+  <h2>License</h2>
+
+  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+</body>
+</html>

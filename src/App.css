@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.main_container {
+  height: 100vh;
+  /* margin: 10px; */
+  /* border: 1px solid red; */
+  background-color: rgb(10 12 27);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_container {
+    height: 100%;
+    /* margin: 10px; */
+    /* border: 1px solid red; */
+    background-color: rgb(10 12 27);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

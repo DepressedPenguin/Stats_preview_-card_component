@@ -14,7 +14,7 @@ export default function Previewbox() {
             </h1>
           </div>
           <div className={styles.titles}>
-            <p>
+            <p className={styles.para_title}>
               Discover the benefits of dta analytics and make
               <br />
               better decisons regarding revenure. customer
